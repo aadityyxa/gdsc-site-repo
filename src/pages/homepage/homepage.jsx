@@ -1,5 +1,6 @@
 import Navbar from '../../common-components/navbar/navbar'
 import Hero from '../../common-components/hero/hero'
+import Footer from '../../common-components/footer/footer'
 import './homepage.css'
 
 export default function Homepage() {
@@ -21,6 +22,26 @@ export default function Homepage() {
                     </div>
                 </div>
             </div>
+
+            <div className="slider-heading-section">
+                <div>
+                    <span>Members</span>
+                    <span>Contact us</span>
+                </div>
+
+                <div>
+
+                </div>
+
+                <h1>WHAT DO</h1>
+                <h1>WE DO?</h1>
+            </div>
+
+            <div className="image-slider">
+                
+            </div>
+
+            <Footer />
         </>
     )
 }
