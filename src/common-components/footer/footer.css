@@ -1,0 +1,29 @@
+.footer{
+    display:grid; 
+    grid-template-columns:1fr 1fr;
+    background:#262626; 
+    padding:48px;
+    color:white;
+    border-top: 2px solid #535353
+}
+
+.footer-sections{
+    display:flex; 
+    justify-content: space-around;
+
+}
+
+.footer-section span{
+    font-size:0.9rem;
+    color: #717171;
+}
+
+.footer-section {
+    color: #C3C3C3;
+}
+
+.footer-section ul{
+    display:flex; 
+    gap:32px;
+}
+
