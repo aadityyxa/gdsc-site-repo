@@ -1,0 +1,40 @@
+.homepage-about-wrapper{
+    background: #262626;
+    display:flex;
+    justify-content: center;
+    padding:48px;
+
+}
+
+.homepage-about-card{
+    background:linear-gradient(to bottom right,#919191,#6e6e6e); 
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    width:85%;
+    padding:48px 72px;
+    border-radius:12px;
+
+}
+
+.homepage-about-header h2{
+    font-weight:600;
+    font-size:28px;
+}
+
+.homepage-about-desc{
+    display: flex;
+    gap:24px;
+    font-size:1.1rem;
+}
+
+.white-line{
+    background:white;
+    color:white;
+    width:8px;
+    height:108px;
+    border-radius:50px;
+    position:relative;
+}
