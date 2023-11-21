@@ -1,18 +1,10 @@
 import './App.css'
-import Navbar from './common-components/navbar/navbar'
-import Sidebar from './common-components/sidebar/sidebar'
+import Homepage from './pages/homepage/homepage'
 
 function App() {
 
   return (
-    <>
-      <Navbar></Navbar>
-      <div className="content">
-      <Sidebar></Sidebar>
-      
-      </div>
-
-    </>
+    <Homepage />
   )
 }
 
