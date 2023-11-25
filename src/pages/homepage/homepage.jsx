@@ -10,7 +10,7 @@ export default function Homepage() {
     return(
         <>
             <Navbar></Navbar>
-            <Hero buttonStatus></Hero>
+            <Hero buttonStatus primaryText='GDSC' secondaryText='MIT-WPU' spanText='' buttonText='Join Us'></Hero>
             <div className="homepage-about-wrapper">
                 <div className="homepage-about-card">
                     <div className="homepage-about-header">
