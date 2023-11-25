@@ -5,6 +5,8 @@ import Footer from '../../common-components/footer/footer.jsx'
 
 export default function Error() {
 
+    document.title='Error'
+
     return(
         <>
             <Navbar />
