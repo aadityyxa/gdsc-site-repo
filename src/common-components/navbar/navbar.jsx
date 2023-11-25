@@ -1,4 +1,4 @@
-import logo from '../../assets/react.svg';
+import logo from '../../assets/hero-images/react.svg';
 import './navbar.css'
 
 export default function Navbar() {

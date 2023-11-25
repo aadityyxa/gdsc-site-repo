@@ -1,4 +1,4 @@
-import gdscBWLogo from '../../assets/gdsc-logo-bw.svg'
+import gdscBWLogo from '../../assets/hero-images/gdsc-logo-bw.svg'
 import './footer.css'
 
 

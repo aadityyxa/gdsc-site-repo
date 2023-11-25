@@ -21,6 +21,21 @@
     width:100%; 
 }
 
+.hero-images{
+    position:relative;
+    
+}
+
+.hero-images:first-child{
+    top:38px;
+    left:100px;
+}
+
+.hero-images:last-child{
+    bottom:64px;
+    right:100px;
+}
+
 .banner{
     display:flex; 
      

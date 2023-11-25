@@ -71,6 +71,7 @@
 
 .slide-image-expanded{
     transform:scale(1.2);
+    transition:400ms ease;
 }
 
 .slide-button:hover{
