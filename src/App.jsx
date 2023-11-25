@@ -1,11 +1,11 @@
 import './index.css'
 // import Homepage from './pages/homepage/homepage'
-import Events from './pages/events/events'
+import Podcast from './pages/podcast/podcast'
 
 function App() {
 
   return (
-    <Events />
+    <Podcast />
   )
 }
 
