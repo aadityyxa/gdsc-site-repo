@@ -2,6 +2,8 @@ import Navbar from '../../common-components/navbar/navbar'
 import Hero from '../../common-components/hero/hero'
 import Footer from '../../common-components/footer/footer'
 import './homepage.css'
+import Slider from '../../common-components/slider/slider'
+
 
 export default function Homepage() {
 
@@ -36,10 +38,8 @@ export default function Homepage() {
                 <h1>WHAT DO</h1>
                 <h1>WE DO?</h1>
             </div>
-
-            <div className="image-slider">
-                
-            </div>
+            <Slider />
+            
 
             <Footer />
         </>

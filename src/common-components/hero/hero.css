@@ -65,6 +65,7 @@
 .join-us-button:hover{
     color:#4285F4;
     background-color: white;
+    transition:all 0.2s ease;
     cursor:pointer;
 }
 
