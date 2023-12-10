@@ -7,10 +7,12 @@ import Slider from '../../common-components/slider/slider'
 
 export default function Homepage() {
 
+    document.title = "GDSC | Home"; 
+
     return(
         <>
             <Navbar></Navbar>
-            <Hero buttonStatus primaryText='GDSC' secondaryText='MIT-WPU' spanText='' buttonText='Join Us'></Hero>
+            <Hero buttonStatus primaryText='GDSC' secondaryText='MIT-WPU' spanText='' buttonText='Join Us' navigateTo='/join'></Hero>
             <div className="homepage-about-wrapper">
                 <div className="homepage-about-card">
                     <div className="homepage-about-header">

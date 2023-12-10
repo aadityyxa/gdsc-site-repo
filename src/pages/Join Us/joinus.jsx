@@ -7,8 +7,8 @@ export default function JoinUs(){
         <>
         <Navbar />
         <div className="customLine">
-            <div class="text-container">
-                <div class="text-center">JOIN US</div>
+            <div className="text-container">
+                <div className="text-center">JOIN US</div>
             </div>
         </div>
         <Footer />

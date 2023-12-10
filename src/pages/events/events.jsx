@@ -6,7 +6,7 @@ import './events.css'
 
 export default function Events() {
     
-    document.title = 'Events';
+    document.title = 'GDSC | Events';
 
     return(
         <>

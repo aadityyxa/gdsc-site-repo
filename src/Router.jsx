@@ -3,6 +3,8 @@ import Homepage from "./pages/homepage/homepage.jsx";
 import Podcast from "./pages/podcast/podcast.jsx";
 import Events from './pages/events/events.jsx';
 import Error from "./pages/error/error.jsx";
+import Contact from "./pages/contact/contact.jsx";
+import JoinUs from "./pages/Join Us/joinus.jsx";
 
 const Router = () => {
 
@@ -20,6 +22,14 @@ const Router = () => {
             path:'/podcast', 
             element:<Podcast />
         }, 
+        {
+            path:'/contact',
+            element: <Contact />
+        },
+        {
+            path: '/join',
+            element: <JoinUs />
+        }
     ])
 
 

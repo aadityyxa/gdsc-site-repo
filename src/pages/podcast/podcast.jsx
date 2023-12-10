@@ -10,7 +10,7 @@ import userOutline from '../../assets/podcast-images/user-outline.png';
 
 export default function Podcast() {
     
-    document.title = 'GDSC Podcast'
+    document.title = 'GDSC | Podcast'
 
     return (
         <>

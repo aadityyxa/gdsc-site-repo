@@ -10,7 +10,7 @@ export default function Error() {
     return(
         <>
             <Navbar />
-            <Hero buttonStatus primaryText='ERROR 404:' spanText='Page Not Found' buttonText='Return To Homescreen'/>
+            <Hero buttonStatus primaryText='ERROR 404:' spanText='Page Not Found' buttonText='Return To Homescreen' navigateTo='/'/>
             <Footer />
         </>
     )

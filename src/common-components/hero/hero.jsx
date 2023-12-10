@@ -1,7 +1,7 @@
 import {Icon} from '@mdi/react'; 
 import {mdiInstagram, mdiLinkedin, mdiTwitter, } from '@mdi/js';
 import discordIcon from '../../assets/hero-images/discord.svg'
-
+import { Link } from 'react-router-dom';
 import buttonTopLogo from '../../assets/hero-images/top-vector.png'
 import buttonBottomLogo from '../../assets/hero-images/bottom-vector.png'
 import heroTextTopImage from '../../assets/hero-images/event-top.png'
@@ -10,7 +10,7 @@ import heroTextBottomImage from '../../assets/hero-images/event-bottom.png'
 import './hero.css'
 import PropTypes from 'prop-types'; 
 
-export default function Hero({buttonStatus, primaryText, secondaryText, spanText, buttonText}) {
+export default function Hero({buttonStatus, primaryText, secondaryText, spanText, buttonText, navigateTo}) {
 
     const heroClassName = ['hero', buttonStatus ? 'hero-flex' : 'hero-center'].join(' '); 
 
@@ -38,7 +38,9 @@ export default function Hero({buttonStatus, primaryText, secondaryText, spanText
                 
                 {buttonStatus && <div className="button-section">
                     <img src={buttonTopLogo} className='button-images'/>
-                    <button className="join-us-button">{buttonText}</button>
+                        <button className="join-us-button">
+                            <Link to={navigateTo}>{buttonText}</Link>
+                        </button>
                     <img src={buttonBottomLogo} className='button-images' />
                 </div>}
             </div>
@@ -53,5 +55,6 @@ Hero.propTypes = {
     primaryText: PropTypes.string,
     secondaryText: PropTypes.string,
     spanText:PropTypes.string,
-    buttonText:PropTypes.string
+    buttonText:PropTypes.string,
+    navigateTo:PropTypes.string
 }

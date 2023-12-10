@@ -7,9 +7,9 @@ export default function Contact() {
     <>
       <Navbar />
       <div className="customLine">
-        <div class="text-container">
-            <div class="text-center">CONTACT</div>
-            <div class="text-center">US</div>
+        <div className="text-container">
+            <div className="text-center">CONTACT</div>
+            <div className="text-center">US</div>
         </div>
       </div>
       <div className="container">
@@ -26,7 +26,7 @@ export default function Contact() {
         </div>
       </div>
     <form>
-        <div class="label-group">
+        <div className="label-group">
             <label>
                 Full Name:
                 <input type="text" />

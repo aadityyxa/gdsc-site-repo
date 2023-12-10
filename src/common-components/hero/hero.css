@@ -77,11 +77,19 @@
     z-index: 1;
 }
 
+.join-us-button a {
+    color:white; 
+}
+
 .join-us-button:hover{
     color:#4285F4;
     background-color: white;
     transition:all 0.2s ease;
     cursor:pointer;
+}
+
+.join-us-button:hover a {
+    color:#4285F4;
 }
 
 .button-images{
