@@ -1,5 +1,6 @@
 import logo from '../../assets/hero-images/react.svg';
 import './navbar.css'
+import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
 
@@ -11,13 +12,27 @@ export default function Navbar() {
             </div>
             
             <ul className="navbar-links">
-                <li>Home</li>
-                <li>Events</li>
-                <li>Podcast</li>
-                <li>Projects</li>
-                <li>Members</li>
-                <li>Contact Us</li>
-                <li>Join Us</li>
+            <li>
+                <NavLink to='/'>Home</NavLink>
+            </li>
+            <li>
+                <NavLink to='/events'>Events</NavLink>
+            </li>
+            <li>
+                <NavLink to='/podcast'>Podcast</NavLink>
+            </li>
+            <li>
+                <NavLink to='/projects'>Projects</NavLink>
+            </li>
+            <li>
+                <NavLink to='/members'>Members</NavLink>
+            </li>
+            <li>
+                <NavLink to='/contact'>Contact Us</NavLink>
+            </li>
+            <li>
+                <NavLink to='/join'>Join Us</NavLink>
+            </li>
             </ul>
         </div>
     )

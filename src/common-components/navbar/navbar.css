@@ -2,7 +2,7 @@
     display:flex; 
     padding:28px; 
     justify-content: space-between;
-    /* border:1px solid red;  */
+    border-bottom:1px solid #d9e7fd;
 }
 
 .navbar-links{
@@ -11,9 +11,14 @@
     font-size:1.15rem;
 }
 
-.navbar-links li:hover{
-    color:#4285F4;
+.navbar-links a{
+    text-decoration:none; 
+    color:black; 
+}
+
+a.active{
+    color: #4285F4;
     text-decoration: underline #4285F4;
     text-underline-offset: 4px;
-    cursor:pointer;
+    cursor: pointer;
 }

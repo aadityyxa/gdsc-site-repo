@@ -20,7 +20,7 @@
 
 .event-image{
     height:200px;
-    border:1px solid red;
+    background:grey;
     width:auto;
     margin-bottom:24px;
 }

@@ -25,7 +25,7 @@ export default function Homepage() {
                 </div>
             </div>
 
-            <div className="slider-heading-section">
+            <div className="heading-section slider-heading">
                 <div>
                     <span>Members</span>
                     <span>Contact us</span>
