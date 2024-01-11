@@ -8,6 +8,7 @@ import Homepage from "./pages/homepage/homepage.jsx";
 import Members from './pages/members/members.jsx'; 
 import PastEvents from "./pages/past-events/past.jsx";
 import UpcomingEvents from './pages/upcoming-events/upcoming.jsx';
+import Projects1 from "./pages/projects/projects-page-1/projects1.jsx";
 
 const Router = () => {
 
@@ -44,6 +45,10 @@ const Router = () => {
         {
             path:'/past',
             element:<PastEvents />
+        }, 
+        {
+            path:'/projects',
+            element:<Projects1/>
         }
     ])
 
