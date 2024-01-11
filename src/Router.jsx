@@ -1,17 +1,18 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Homepage from "./pages/homepage/homepage.jsx";
 import Podcast from "./pages/podcast/podcast.jsx";
 import Events from './pages/events/events.jsx';
 import Error from "./pages/error/error.jsx";
 import Contact from "./pages/contact/contact.jsx";
 import JoinUs from "./pages/Join Us/joinus.jsx";
+import Homepage from "./pages/homepage/homepage.jsx";
+import Members from './pages/members/members.jsx'; 
 
 const Router = () => {
 
     const router = createBrowserRouter([
         {
             path:'/',
-            element:<Homepage/>,
+            element:<Homepage />,
             errorElement:<Error />
         }, 
         {
@@ -29,6 +30,10 @@ const Router = () => {
         {
             path: '/join',
             element: <JoinUs />
+        }, 
+        {
+            path:'/members',
+            element:<Members />
         }
     ])
 
