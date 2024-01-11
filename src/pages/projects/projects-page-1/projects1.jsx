@@ -4,6 +4,7 @@ import Footer from '../../../common-components/footer/footer';
 import projectImage from '../../../assets/events-images/Rectangle 50.png'; 
 import PropTypes from 'prop-types'; 
 
+
 export default function Projects1() {
     
 
@@ -49,7 +50,10 @@ export default function Projects1() {
                     </div>
                 </div>
 
+
                 <Footer />
+
+                
 
             </>
 

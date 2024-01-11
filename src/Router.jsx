@@ -9,6 +9,7 @@ import Members from './pages/members/members.jsx';
 import PastEvents from "./pages/past-events/past.jsx";
 import UpcomingEvents from './pages/upcoming-events/upcoming.jsx';
 import Projects1 from "./pages/projects/projects-page-1/projects1.jsx";
+import Projects2 from './pages/projects/projects-page-1/projects2.jsx'; 
 
 const Router = () => {
 
@@ -49,6 +50,10 @@ const Router = () => {
         {
             path:'/projects',
             element:<Projects1/>
+        },
+        {
+            path:'/project',
+            element:<Projects2/>
         }
     ])
 

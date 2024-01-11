@@ -33,6 +33,16 @@
 
 }
 
+.upcoming-events-heading button {
+    border-radius: 50%;
+    padding: 12px 8px;
+    border: 3px solid #b3cefb;
+    color: #b3cefb;
+    background: white;
+    margin-bottom: 8px;
+
+}
+
 .project-card{
     display:grid; 
     grid-template-columns: 3fr 1fr;
@@ -48,3 +58,49 @@
     grid-row:1/4; 
     height:300px;
 }
+
+.article-section{   
+    padding:100px 450px;
+}
+
+.article-section h1{
+    font-size:42px;
+    padding-bottom:32px;
+    border-bottom:1px solid #DDDDDD;
+    text-align: center;
+}
+
+.project-desc{
+    padding-top:32px;
+}
+
+.image-carousel{
+    display:flex; 
+    justify-content: center;
+    overflow:hidden;
+    gap:48px;
+    height:250px;
+}
+
+#medium-link{
+    color:blue; 
+    text-decoration:underline 1px solid blue; 
+    display:flex; 
+    align-items: center;
+    gap:8px;
+    padding:100px 550px;
+}
+
+.project-members{
+    background:#262626;
+    padding:48px;
+    color:white;
+}
+
+.project-member-grid{
+    padding:48px 0px;
+    display:grid; 
+    grid-template-columns: repeat(4,1fr);
+    justify-items:center;
+}
+
