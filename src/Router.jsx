@@ -6,6 +6,8 @@ import Contact from "./pages/contact/contact.jsx";
 import JoinUs from "./pages/Join Us/joinus.jsx";
 import Homepage from "./pages/homepage/homepage.jsx";
 import Members from './pages/members/members.jsx'; 
+import PastEvents from "./pages/past-events/past.jsx";
+import UpcomingEvents from './pages/upcoming-events/upcoming.jsx';
 
 const Router = () => {
 
@@ -34,6 +36,14 @@ const Router = () => {
         {
             path:'/members',
             element:<Members />
+        }, 
+        {
+            path:'/upcoming',
+            element:<UpcomingEvents />
+        },
+        {
+            path:'/past',
+            element:<PastEvents />
         }
     ])
 
