@@ -3,7 +3,7 @@ import Icon from "@mdi/react";
 import { PropTypes } from 'prop-types';
 import arrowLeft from '../../assets/events-images/Vector 18.svg';
 
-export default function EventHero({eventTitle, eventDescription, eventImages}) {
+export default function EventHero({heroTitle, eventTitle, eventDescription, eventImages}) {
 
 
     return(
@@ -19,7 +19,7 @@ export default function EventHero({eventTitle, eventDescription, eventImages}) {
 
                     </div>
 
-                    <h1>UPCOMING EVENTS</h1>
+                    <h1>{heroTitle}</h1>
                 </div>
 
                 <div className="hero-content">
@@ -53,6 +53,7 @@ export default function EventHero({eventTitle, eventDescription, eventImages}) {
 }
 
 EventHero.propTypes = {
+    heroTitle:PropTypes.string,
     eventTitle: PropTypes.string,
     eventDescription:PropTypes.string,
     eventImages:PropTypes.array

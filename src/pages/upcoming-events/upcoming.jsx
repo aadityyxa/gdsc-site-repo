@@ -17,7 +17,7 @@ export default function UpcomingEvents() {
     return(
         <>
             <Navbar />
-            <EventHero eventTitle='GDSC WOW' eventDescription={desc} eventImages={imgArr}/>
+            <EventHero heroTitle='UPCOMING EVENTS' eventTitle='GDSC WOW' eventDescription={desc} eventImages={imgArr}/>
 
             <div className="agenda-section">
 
