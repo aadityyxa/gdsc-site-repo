@@ -3,6 +3,7 @@ import Hero from '../../common-components/hero/hero'
 import Footer from '../../common-components/footer/footer'
 import './homepage.css'
 import Slider from '../../common-components/slider/slider'
+import { Link } from 'react-router-dom'
 
 
 export default function Homepage() {
@@ -29,8 +30,8 @@ export default function Homepage() {
 
             <div className="heading-section slider-heading">
                 <div>
-                    <span>Members</span>
-                    <span>Contact us</span>
+                    <span><Link to='/members' id='white-text-links'>Members</Link></span>
+                    <span><Link to='/contact' id='white-text-links'>Contact Us</Link></span>
                 </div>
 
                 <div>
