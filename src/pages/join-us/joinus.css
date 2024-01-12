@@ -1,0 +1,96 @@
+.upcoming-events-heading {
+  background: white;
+  color: black;
+  margin: 32px 0px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 0px 48px;
+  column-gap: 24px;
+
+}
+
+.upcoming-events-heading h1 {
+  font-weight: 600;
+  font-size: 64px;
+  grid-column: 2/3;
+  grid-row: 1 /span 3;
+  text-align: right;
+}
+
+.upcoming-events-heading div:first-child {
+  border-bottom: 1px solid #262626;
+}
+
+.join-container{
+  display:grid;
+  grid-template-columns: 1fr 2fr; 
+  justify-content:center;
+  padding:64px 200px;
+  
+
+}
+
+.join-us-form{
+  display:flex; 
+
+  align-items: center;
+  gap:84px;
+}
+
+.join-us-form label{
+  display:block;
+  color:#848484;
+  padding-bottom:4px;
+  font-size:14px;
+}
+
+
+
+.join-us-form select{
+  border-style:none none solid none;
+  width:300px;
+  font-size:18px;
+  padding:10px 4px;
+  appearance: none;
+  background: url('../../assets/miscellaneous/Group 129.png') no-repeat right white;
+  background-size:24px;
+}
+
+
+.join-email span, .join-social span{
+  color:#848484; 
+
+}
+
+.join-email div, .join-social div{
+  color:#717171; 
+  font-size:18px;
+}
+
+.join-email div{
+  margin-top:24px;
+  margin-bottom:64px;
+}
+
+.join-social div:first-of-type{
+  margin-top:24px;
+}
+
+.join-us-form button{
+  justify-content: space-evenly;
+  background: #4285F4;
+  color:white;
+  padding:16px 48px;
+  border:none;
+  border-radius:999px;
+  cursor:pointer;
+}
+
+/* .drop-down-arrow{
+  position:absolute; 
+  right:0px; 
+} */
+
+
+
