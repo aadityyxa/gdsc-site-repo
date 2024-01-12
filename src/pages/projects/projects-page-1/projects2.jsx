@@ -5,6 +5,7 @@ import projectImage from '../../../assets/events-images/Rectangle 50.png';
 import mediumIcon from '../../../assets/miscellaneous/image 5.png'; 
 import teamMemberImage from '../../../assets/podcast-images/user-outline.png'; 
 import MemberCard from '../../members/team-member-card.jsx'; 
+import ProjectSlider from "./project-slider.jsx";
 
 
 
@@ -31,11 +32,8 @@ export default function Projects2() {
                 <p className="project-desc">Get ready for an exhilarating journey into the world of Android app development as we proudly present &ldquo;Android Seekho&rdquo; Season 2! This immersive event is designed to empower aspiring developers and enthusiasts alike, equipping them with the knowledge and tools necessary to create innovative and cutting-edge mobile applications.</p>
             </div>
 
-            <div className="image-carousel">
-                <img src={projectImage} alt="" />
-                <img src={projectImage} alt="" />
-                <img src={projectImage} alt="" />
-            </div>
+            <ProjectSlider />
+
 
             <a id='medium-link'>Read a detailed article about this project on Medium <img src={mediumIcon} alt="" /></a>
 
@@ -50,6 +48,7 @@ export default function Projects2() {
                         <MemberCard teamMemberImage={teamMemberImage} name='John Doe' designation = 'Developer' />
                     </div>
             </div>
+
 
             <Footer />
 
