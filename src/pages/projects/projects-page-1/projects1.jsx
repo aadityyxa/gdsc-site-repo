@@ -6,6 +6,8 @@ import PropTypes from 'prop-types';
 
 
 export default function Projects1() {
+
+    document.title = "GDSC | Projects"
     
 
     return(

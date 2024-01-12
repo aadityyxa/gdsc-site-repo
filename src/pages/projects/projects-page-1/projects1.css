@@ -104,7 +104,7 @@
     justify-items:center;
 }
 
-.image-slider-wrapper {
+.project-image-slider-wrapper {
     /* background: #262626; */
     background:white;
     display: Flex;
@@ -155,7 +155,7 @@
     height: 200px;
 }
 
-.slide-button {
+.project-slide-button {
     position: absolute;
     top: 40%;
     padding: 24px;
@@ -171,11 +171,11 @@
 
 }
 
-.slide-button:first-child {
+.project-slide-button:first-child {
     left: 20px;
 }
 
-.slide-button:last-child {
+.project-slide-button:last-child {
     right: 20px;
 }
 
@@ -184,7 +184,7 @@
     transition: 400ms ease;
 }
 
-.slide-button:hover {
+.project-slide-button:hover {
     filter: brightness(80%);
     transition: all 0.2s ease;
     cursor: pointer;

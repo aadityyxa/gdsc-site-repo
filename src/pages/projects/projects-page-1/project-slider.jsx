@@ -53,7 +53,7 @@ export default function ProjectSlider() {
 
 
     return(
-        <div className="image-slider-wrapper">
+        <div className="project-image-slider-wrapper">
                 <div className="image-container fade-right" >
                     <div className="center-image">
                         <div className="images">
@@ -73,11 +73,11 @@ export default function ProjectSlider() {
                         </div>
                     </div>
                 </div>
-                <div className="slide-buttons">
-                    <button className="slide-button" onClick={slideToTheLeft}>
+                <div className="project-slide-buttons">
+                    <button className="project-slide-button" onClick={slideToTheLeft}>
                         <Icon path={mdiChevronLeft} size={1} ></Icon>
                     </button>
-                    <button className="slide-button" onClick={slideToTheRight}>
+                    <button className="project-slide-button" onClick={slideToTheRight}>
                         <Icon path={mdiChevronRight} size={1}></Icon>
                     </button>
                 </div>

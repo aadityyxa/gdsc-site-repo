@@ -1,7 +1,5 @@
 import Navbar from "../../../common-components/navbar/navbar";
 import Footer from '../../../common-components/footer/footer'; 
-import arrowLeft from '../../../assets/events-images/Vector 18.svg';
-import projectImage from '../../../assets/events-images/Rectangle 50.png'; 
 import mediumIcon from '../../../assets/miscellaneous/image 5.png'; 
 import teamMemberImage from '../../../assets/podcast-images/user-outline.png'; 
 import MemberCard from '../../members/team-member-card.jsx'; 
@@ -11,12 +9,13 @@ import ProjectSlider from "./project-slider.jsx";
 
 export default function Projects2() {
 
+    document.title = 'Project'; 
+
     return (
         <>
             <Navbar />
             <div className="events-heading-section upcoming-events-heading">
                     <div>
-                        <button><img src={arrowLeft} alt="" /></button>
                     </div>
 
                     <div>
