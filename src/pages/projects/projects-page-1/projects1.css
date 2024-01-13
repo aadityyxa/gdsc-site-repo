@@ -105,7 +105,6 @@
 }
 
 .project-image-slider-wrapper {
-    /* background: #262626; */
     background:white;
     display: Flex;
     flex-direction: column;
@@ -150,7 +149,7 @@
 
 }
 
-.slider-image img {
+.join-slider-image img {
     width: 422px;
     height: 200px;
 }

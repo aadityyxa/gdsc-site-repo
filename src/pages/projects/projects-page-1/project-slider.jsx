@@ -58,13 +58,13 @@ export default function ProjectSlider() {
                     <div className="center-image">
                         <div className="images">
 
-                            <div className='slider-image img1'>
+                            <div className='join-slider-image img1'>
                                 <img src={projectImage}/>
                             </div>
-                            <div className='slider-image img2'>
+                            <div className='join-slider-image img2'>
                                 <img src={projectImage}/>
                             </div>
-                            <div className='slider-image img3'>
+                            <div className='join-slider-image img3'>
                                 <img src={projectImage}/>
                             </div>
                         </div>
