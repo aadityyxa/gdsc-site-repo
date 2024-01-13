@@ -9,6 +9,8 @@ import ProjectSlider from "./project-slider.jsx";
 
 export default function Projects2() {
 
+    window.onload = window.scrollTo(0,0); 
+
     document.title = 'Project'; 
 
     return (

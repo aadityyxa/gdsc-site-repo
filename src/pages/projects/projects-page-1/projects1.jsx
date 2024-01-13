@@ -8,6 +8,8 @@ import PropTypes from 'prop-types';
 
 export default function Projects1() {
 
+    window.onload = window.scrollTo(0,0); 
+
     document.title = "GDSC | Projects"
     
 

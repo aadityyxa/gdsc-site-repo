@@ -10,6 +10,8 @@ export default function PastEvents() {
     const desc = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda suscipit nisi laborum sunt repellendus obcaecati tenetur, explicabo error numquam harum quos velit, dolor, dolorum beatae maiores nesciunt aliquam sapiente est?'
 
     const imgArr = [eventImage]
+    
+    window.onload = window.scrollTo(0,0); 
 
 
     return(

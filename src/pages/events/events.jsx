@@ -8,6 +8,8 @@ export default function Events() {
     
     document.title = 'GDSC | Events';
 
+    window.onload = window.scrollTo(0,0); 
+
     return(
         <>
             <Navbar />

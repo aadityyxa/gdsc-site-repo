@@ -44,6 +44,13 @@
     
 }
 
+.slider-image a {
+    display:flex; 
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
 .slider-image img{
     width:422px;
 }

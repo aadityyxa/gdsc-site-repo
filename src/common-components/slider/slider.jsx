@@ -4,15 +4,13 @@ import { mdiChevronRight, mdiChevronLeft } from '@mdi/js';
 import sliderImg1 from '../../assets/homepage-images/slide-img-1.svg'
 import sliderImg2 from '../../assets/homepage-images/slide-img-2.svg'
 import sliderImg3 from '../../assets/homepage-images/slide-img-3.svg'
+import { Link } from 'react-router-dom';
 import './slider.css';
 
 export default function Slider() {
 
     let [translateValue, setTranslateValue] = useState(0); 
     let [currentSlide, setCurrentSlide] = useState(1); 
-    
-    // console.log(translateValue);
-
     
     function expandCentralImage() {
         
@@ -62,16 +60,23 @@ export default function Slider() {
                         <div className="images">
 
                             <div className='slider-image img1'>
+                            <Link id='white-text-links' to='/events'>
                                 <img src={sliderImg1}/>
                                 <span>Events</span>
+                            </Link>
                             </div>
                             <div className='slider-image img2'>
+                            <Link id='white-text-links' to='/projects'>
                                 <img src={sliderImg2}/>
                                 <span>View Projects</span>
+                            </Link>
                             </div>
+                            
                             <div className='slider-image img3'>
+                            <Link id='white-text-links' to='/podcast'>
                                 <img src={sliderImg3}/>
                                 <span>Listen To Podcasts</span>
+                            </Link>
                             </div>
                         </div>
                     </div>

@@ -11,6 +11,7 @@ import userOutline from '../../assets/podcast-images/user-outline.png';
 export default function Podcast() {
     
     document.title = 'GDSC | Podcast'
+    window.onload = window.scrollTo(0,0); 
 
     return (
         <>

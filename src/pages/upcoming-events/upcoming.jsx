@@ -14,6 +14,8 @@ export default function UpcomingEvents() {
 
     const imgArr = [eventImage]
 
+    window.onload = window.scrollTo(0,0); 
+
     return(
         <>
             <Navbar />

@@ -8,6 +8,7 @@ import Footer from '../../common-components/footer/footer.jsx'
 export default function Members() {
 
     document.title = "GDSC | Members"
+    window.onload = window.scrollTo(0,0); 
 
     return(
         <>
