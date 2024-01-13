@@ -2,6 +2,7 @@ import { mdiInstagram, mdiTwitter, mdiLinkedin } from "@mdi/js"
 import Icon from "@mdi/react"; 
 import { PropTypes } from 'prop-types';
 import arrowLeft from '../../assets/events-images/Vector 18.svg';
+import { Link } from 'react-router-dom'; 
 
 export default function EventHero({heroTitle, eventTitle, eventDescription, eventImages}) {
 
@@ -12,7 +13,7 @@ export default function EventHero({heroTitle, eventTitle, eventDescription, even
 
                 <div className="events-heading-section upcoming-events-heading">
                     <div>
-                        <button><img src={arrowLeft} alt="" /></button>
+                        <button><Link to='/'><img src={arrowLeft} alt="" /></Link></button>
                     </div>
 
                     <div>
