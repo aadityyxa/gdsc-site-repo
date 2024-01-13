@@ -3,7 +3,7 @@ import Podcast from "./pages/podcast/podcast.jsx";
 import Events from './pages/events/events.jsx';
 import Error from "./pages/error/error.jsx";
 import Contact from "./pages/contact/contact.jsx";
-import JoinUs from "./pages/Join Us/joinus.jsx";
+import JoinUs from "./pages/join-us/joinus.jsx";
 import Homepage from "./pages/homepage/homepage.jsx";
 import Members from './pages/members/members.jsx'; 
 import PastEvents from "./pages/past-events/past.jsx";

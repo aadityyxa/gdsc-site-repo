@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import Icon from '@mdi/react';
 import { mdiChevronRight, mdiChevronLeft } from '@mdi/js';
-
 import sliderImg1 from '../../assets/homepage-images/slide-img-1.svg'
 import sliderImg2 from '../../assets/homepage-images/slide-img-2.svg'
 import sliderImg3 from '../../assets/homepage-images/slide-img-3.svg'

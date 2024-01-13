@@ -12,7 +12,6 @@
     transition: all 0.3s ease;
 }
 
-
 .image-container {
     width:100%;
     overflow:hidden;
@@ -44,6 +43,12 @@
     color: #CBCBCB;
     
 }
+
+.slider-image img{
+    width:422px;
+    height:200px;
+}
+
 
 .slide-button {
     position:absolute;

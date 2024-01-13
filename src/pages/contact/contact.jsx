@@ -25,7 +25,7 @@ export default function Contact() {
             <h2>Facebook</h2>
         </div>
       </div>
-    <form>
+    <form className='contact-form'>
         <div className="label-group">
             <label>
                 Full Name:

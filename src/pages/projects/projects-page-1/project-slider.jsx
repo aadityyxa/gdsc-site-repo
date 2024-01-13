@@ -60,15 +60,12 @@ export default function ProjectSlider() {
 
                             <div className='slider-image img1'>
                                 <img src={projectImage}/>
-                                <span>Events</span>
                             </div>
                             <div className='slider-image img2'>
                                 <img src={projectImage}/>
-                                <span>View Projects</span>
                             </div>
                             <div className='slider-image img3'>
                                 <img src={projectImage}/>
-                                <span>Listen To Podcasts</span>
                             </div>
                         </div>
                     </div>

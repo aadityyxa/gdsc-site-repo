@@ -15,6 +15,7 @@
     transform: translate(0, -50%);
     padding-right: 2%;
     text-align: right;
+    padding-top:42px;
   }
   
 .text-center {
@@ -52,13 +53,13 @@ textarea {
 .container{
     display: flex;
 }
-form{
+.contact-form{
     margin-top: 18%;
     margin-left: 20%;
     max-width: 1000px;
     flex-direction: column;
 }
-label {
+.contact-form label {
     display: flex;
     flex-direction: column;
     margin-bottom: 16px;
@@ -71,8 +72,8 @@ label {
 
   }
   
-  label input,
-  label textarea {
+  .contact-form label input,
+  .contact-form label textarea {
     border: none;
     border-bottom: 1px solid #2C2C2C;
     padding: 8px;
