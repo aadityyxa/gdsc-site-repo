@@ -7,20 +7,6 @@ export default function ProjectSlider() {
 
     let [translateValue, setTranslateValue] = useState(0); 
     let [currentSlide, setCurrentSlide] = useState(1); 
-    
-    // console.log(translateValue);
-
-    
-    // function expandCentralImage() {
-        
-    //     const centralImage = document.querySelector(`.img${currentSlide}`); 
-
-    //     centralImage.classList.add('slide-image-expanded')
-    // }
-
-    // useEffect(() => {
-    //     expandCentralImage(); 
-    // })
 
     function slideToTheLeft() {
 
@@ -47,7 +33,6 @@ export default function ProjectSlider() {
                 setCurrentSlide(currentSlide + 1)
                 const previousImage = document.querySelector(`.img${currentSlide}`);
                 previousImage.classList.remove('slide-image-expanded');
- 
             }
     }
 
